@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="">
+        <label><span>📌</span> 이름: </label>
+        <input type="text"> <br />
+        <label><span>📌</span> 성별 </label>
+        <input type="radio"> 여자 
+        <input type="radio"> 남자<br />
+        <label><span>📌</span> 취미: </label>
+        <input type="checkbox" name="hobby1" value="1"> 퍼즐맞추기
+        <input type="checkbox" name="hobby2" value="2"> 산책
+        <input type="checkbox" name="hobby3" value="3"> 노래부르기 
+        <input type="checkbox" name="hobby4" value="4"> 코딩<br />
+        <label>📌 생년월일: </label>
+        <input type="date"> <br />
+        📌 전공  : <select name="order" form="myForm">
+            <option value="americano">컴퓨터공학</option>
+            <option value="caffe latte">상담심리</option>
+            <option value="cafe au lait">사회복지</option>
+            <option value="espresso">국제어문</option>
+        </select> <br/>
+        <label for="span">📌 하고 싶은 말 </label> <br/>
+        <textarea name="opinion" form="myForm" cols="30" rows="5"></textarea> <br />
+        <input type="submit">
+    </form>
+</body>
+</html>
